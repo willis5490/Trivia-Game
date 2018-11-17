@@ -43,7 +43,11 @@ h2, #message, #finalMessage{
 }
 #picky{
 	margin-left: 10%;
+	margin-top: 100px;
 
+}
+#startBtn{
+	margin-bottom: 50px;
 }
 
 @media screen and (max-width:640px){
