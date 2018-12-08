@@ -49,11 +49,17 @@ h2, #message, #finalMessage{
 #startBtn{
 	margin-bottom: 50px;
 }
+.container{
+	color: white;
+}
 
-@media screen and (max-width:640px){
-	.container{
-		width: 500px;
-		margin-top: 200px;
-		size: 200%;
-	}	
+/* Mobile Respone */
+@media only screen and (max-width: 480px) {
+
+.container{
+	width: 100%
+}
+#startBtn{
+	width: 100%
+}
 }
